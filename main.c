@@ -10,10 +10,10 @@ int main() {
 	printf("Ingrese el numero de elementos para el arreglo: ");
 	scanf("%d", &n);
 	
-	// Asignacion de memoria dinamica
+
 	arr = (int *) malloc(n * sizeof(int));
 	
-	// Verificar si se pudo asignar memoria
+	
 	if (arr == NULL) {
 		printf("Error: No se pudo asignar memoria.\n");
 		return 1;
@@ -21,14 +21,14 @@ int main() {
 	
 	printf("Memoria asignada exitosamente para %d enteros.\n", n);
 	
-	// Inicializar y mostrar los elementos del arreglo
+
 	printf("Inicializando y mostrando los elementos del arreglo:\n");
 	
 	for (int i = 0; i < n; i++) {
 		arr[i] = i * 100;
 		printf("Elemento en indice %d: %d\n", i, arr[i]);
 	}
-	// Liberar la memoria
+
 	free(arr);
 	
 	printf("Memoria liberada.\n");
