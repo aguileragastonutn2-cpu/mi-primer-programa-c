@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+// Cambio realizado desde el repositorio clonado
 int main() {
 	int *arr;
 	int n;
