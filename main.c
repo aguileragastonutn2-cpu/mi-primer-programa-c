@@ -5,7 +5,7 @@
 int main() {
 	int *arr;
 	int n;
-	
+	// Proyecto de practica con Git y GitHub
 	printf("Bienvenido al programa de memoria dinamica en C.\n");
 	printf("Ingrese el numero de elementos para el arreglo: ");
 	scanf("%d", &n);
